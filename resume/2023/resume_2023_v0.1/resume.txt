@@ -1,0 +1,140 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+
+\geometry{letterpaper, tmargin=2.0cm, bmargin=2.0cm, lmargin=2.0cm, rmargin=2.0cm}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+
+
+%% language
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+
+%% fonts
+\usepackage[T1]{fontenc}
+
+
+
+\title{Brief Article}
+\author{The Author}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+
+%% change font
+\fontfamily{phv}\selectfont
+
+\begin{tikzpicture}
+%
+%% PICTURE
+\node [] (PIC) at (0,0) {
+\begin{tikzpicture}
+%\node [] () at (0,0) {\includegraphics[width=1\linewidth]{figures/main_TN.pdf}};
+\node [rectangle,rounded corners = 1cm] () at (0,0) {\includegraphics[width=0.1\linewidth]{figures/will.jpg}};
+\end{tikzpicture}
+};
+%
+%% COORDINATES
+\node [] (HEA) [right=0cm of PIC] {
+\begin{minipage}{0.5\linewidth}
+\vspace{0.5cm}
+{\LARGE \textbf{Willem \color{black!100}Bonnaffé}} \\ 
+ \\
+29 Avenue Sainte Foy, \\
+Neuilly sur Seine, 92200, France\\
+00 33 6 83 40 43 49 - willem.bonnaffe@gmail.com\\
+\end{minipage}
+};
+\end{tikzpicture}
+};
+\end{tikzpicture}
+
+
+\center
+\begin{tabular}{rll}
+%% EDUCATION %%
+\textbf{EDUCATION} \\
+\\
+2017-2021 & \textbf{DPhil Environmental Sciences} & \textbf{University of Oxford} \\
+& \textit{The architecture of eco-evolutionary feedbacks} & Department of Zoology \\
+\\
+2013-2017 & \textbf{Diploma in Socio-Environmental Sciences} & \textbf{Ecole normale supérieure} Ulm \\
+\\
+2013-2016 & \textbf{MSc Evolutionary Biology} & \textbf{Ecole normale supérieure} Ulm \\
+ & $1^{st}/49$ written exams - Highest honors  & \& Université Pierre et Marie Curie \\
+ \\
+2011-2013 & \textbf{BSc Life Sciences} & \textbf{Université Pierre et Marie Curie} \\
+ & $5^{th}/505$ written exams - High honors  & \& Université Pierre et Marie Curie \\
+\\
+%% EXPERIENCE %%
+\textbf{EXPERIENCE} \\
+\\
+2016-2017 & \textbf{Internship in Theoretical Biology} &  \textbf{University of Arizona} \\
+10 months & \textit{Adaptive dynamics of fish trophic networks} &  Ecology and Evolutionary Biology Dpt. \\
+\\
+2016 & \textbf{Internship in Systemic Biology} &  \textbf{Université Pierre et Marie Curie} \\
+5 months & \textit{Trophic network topology along thermal gradients} & Institute of Ecology and Environmental Sciences \\
+\\
+2015 & \textbf{Internship in Computational Biology} &  \textbf{Ecole normale sup\'erieure} Ulm \\
+5 months & \textit{Fisheries and trout meta-population dynamics} & Environmental Research and Teaching Institute \\
+\\
+2014-2015 & \textbf{Internship in Functional Ecology} &  \textbf{Université Pierre et Marie Curie} \\
+6 months & \textit{Ontogeny of body colouration in lizards} & Institute of Ecology and Environmental Sciences \\
+\\
+2014 & \textbf{Internship in Behavioural Ecology} &  \textbf{University of Oxford} \\
+5 months & \textit{Fitness consequences of sociality} & Department of Zoology \\
+\\
+2013 & \textbf{Internship in Cognitive Ethology} &  \textbf{Mus\'eum national d'histoire naturelle} \\
+2 months & \textit{Detection of prosocial behaviour in rodents} & Laboratoire d'Ethologie Cognitive et Compar\'ee\\
+\\
+%% OUTREACH %%
+\textbf{OUTREACH} \\
+\\
+2018 & \textbf{Grand seminar challenges} & \textbf{University of Oxford} \\
+& Conference on Science and Politics & Jesus College\\
+\\
+2017 & \textbf{Trophic network research showcase 2} & \textbf{Université Pierre et Marie Curie} \\
+ & Presentation of MSc project & Institute of Ecology and Environmental Sciences \\
+ \\
+2017 & \textbf{Uncertainity Quantification Showcase} & \textbf{University of Arizona} \\
+& Bayesian analysis of ecological time series & Dpt. of Mathematics \\
+\\
+2017 & \textbf{Bayesian modelling workshop} & \textbf{University of Arizona} \\
+& Bayesian modelling applied to ecological data & Tree ring Lab. \\
+\\
+2016 & \textbf{Trophic network research showcase 1} & \textbf{Université Lille 1} \\
+ & Presentation of MSc project & \\
+ \\
+%% TEACHING %%
+\textbf{TEACHING} \\
+\\
+2018 & \textbf{Demonstrator in doctoral training program} & University of Oxford \\
+& Demonstrating computational and quantitative methods & \\
+\\
+%% EXTRA-CURICULAR %%
+\textbf{EXTRA-CURICULAR} \\
+\\
+\end{tabular}
+
+\begin{tabular}{rll}
+%% PUBLICATIONS %%
+\textbf{PUBLICATIONS} \\
+\\
+2018 & \textit{Trophic network topology along thermal gradients hihglights} & Submitted \\ 
+& \textit{antagonistic individual- and species-level response to temperature} & \\
+& W. Bonnaffé, S. Legendre \& E. Edeline & \\
+\\
+2018 & \textit{Ontogenetic trajectories of body colouration reveal its function} & \textbf{Ecology and Evolution} \\ 
+& \textit{as a multicomponent nonsenescent signal} &  \\
+& W. Bonnaffé, M. Martin, M. Mugabo, S. Mélan \& J.-F. Le Galliard \\
+\\
+\end{tabular}
+
+
+\end{document}  
